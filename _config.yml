@@ -1,6 +1,6 @@
 # Site settings
 title: NBW & Co
-email: nbwassociate@gmail.com
+email: nbwandco@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://nbwassociate.github.io" # the base hostname & protocol for your site
