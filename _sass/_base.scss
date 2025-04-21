@@ -186,10 +186,10 @@ header {
         min-height: auto;
         .header-content {
             position: absolute;
-            top: 10%;
-            -webkit-transform: translateY(-10%);
-            -ms-transform: translateY(-10%);
-            transform: translateY(-10%);
+            top: 90%;
+            -webkit-transform: translateY(-90%);
+            -ms-transform: translateY(-90%);
+            transform: translateY(-90%);
             padding: 100px 15px 100px;
             .header-content-inner {
                 max-width: 1000px;
