@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     height: 100%;
     width: 100%;
 }
@@ -27,12 +26,7 @@ a {
     }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     @include sans-serif-font;
 }
 
@@ -68,7 +62,6 @@ aside {
 }
 
 // Navigation
-
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -108,6 +101,7 @@ aside {
             }
         }
     }
+
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: rgba(white, .3);
@@ -148,22 +142,21 @@ aside {
 }
 
 // Homepage Header
-
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 100vh; /* Ensure it takes full viewport height */
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
-    margin-bottom: 60px; /* Adds space between header and the next section */
+    margin-top: 60px; /* Adds space between navbar and header */
     
     .header-content {
         position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 100px 15px;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -215,9 +208,7 @@ header {
     }
 }
 
-
 // Sections
-
 .section-heading {
     margin-top: 0;
 }
@@ -359,4 +350,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
