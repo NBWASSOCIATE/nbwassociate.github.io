@@ -150,13 +150,13 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: 100vh; /* Full viewport height */
+    min-height: auto;
     @include background-cover;
     background-position: center;
-    background-size: cover;
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    padding-top: 80px; /* This ensures the header content starts below the navbar */
     
     .header-content {
         position: relative;
