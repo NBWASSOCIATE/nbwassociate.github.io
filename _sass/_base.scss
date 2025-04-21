@@ -158,6 +158,8 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    margin-bottom: 60px; /* Adds space between header and the next section */
+    
     .header-content {
         position: relative;
         text-align: center;
@@ -181,6 +183,14 @@ header {
             }
         }
     }
+    
+    @media (max-width: 767px) {
+        padding-top: 60px; /* Adds space on top */
+        .header-content {
+            padding-top: 60px;
+        }
+    }
+
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
@@ -204,6 +214,7 @@ header {
         }
     }
 }
+
 
 // Sections
 
