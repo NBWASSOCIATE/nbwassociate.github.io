@@ -185,12 +185,19 @@ header {
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
-            position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            padding: 100 50px;
+            // position: absolute;
+            // top: 50%;
+            // -webkit-transform: translateY(-50%);
+            // -ms-transform: translateY(-50%);
+            // transform: translateY(-50%);
+            // padding: 100 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; // stack items vertically
+            padding: 100px 50px;
+            min-height: 100vh; // ensure full screen height
+            position: relative;
             .header-content-inner {
                 max-width: 1000px;
                 margin-left: auto;
