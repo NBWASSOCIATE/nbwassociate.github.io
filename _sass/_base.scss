@@ -1,4 +1,4 @@
-html, 
+html,
 body {
     height: 100%;
     width: 100%;
@@ -68,6 +68,7 @@ aside {
 }
 
 // Navigation
+
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -107,7 +108,6 @@ aside {
             }
         }
     }
-
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: rgba(white, .3);
@@ -148,6 +148,7 @@ aside {
 }
 
 // Homepage Header
+
 header {
     position: relative;
     width: 100%;
@@ -157,7 +158,6 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
-    
     .header-content {
         position: relative;
         text-align: center;
@@ -181,16 +181,15 @@ header {
             }
         }
     }
-
     @media (min-width: 768px) {
-        min-height: auto;
+        min-height: 100%;
         .header-content {
-            position: relative;
+            position: absolute;
             top: 50%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-            padding: 100px 15px 100px;
+            padding: 100 50px;
             .header-content-inner {
                 max-width: 1000px;
                 margin-left: auto;
@@ -207,6 +206,7 @@ header {
 }
 
 // Sections
+
 .section-heading {
     margin-top: 0;
 }
