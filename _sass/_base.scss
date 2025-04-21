@@ -26,7 +26,12 @@ a {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     @include sans-serif-font;
 }
 
@@ -174,13 +179,6 @@ header {
                 font-size: 16px;
                 margin-bottom: 50px;
             }
-        }
-    }
-    
-    @media (max-width: 767px) {
-        padding-top: 60px; /* Adds space on top */
-        .header-content {
-            padding-top: 60px;
         }
     }
 
