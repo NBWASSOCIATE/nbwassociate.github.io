@@ -151,7 +151,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: 100%;
+    min-height: auto;
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
@@ -186,7 +186,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            // top: 50%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
